@@ -1,21 +1,20 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
-  "contentVersion": "1.0.0.0",
-  "parameters": {
+    "newStorageAccountName": {
+      "value": "hardik1234"
+    },
     "vmDnsName": {
-      "value": "GEN-UNIQUE"
+      "value": "wordpress-123"
     },
     "adminUsername": {
       "value": "azureuser"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "asdfgh@1234"
     },
     "mySqlPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "asdfgh@1234"
     },
     "vmSize": {
       "value": "Standard_D2"
     }
-  }
 }
